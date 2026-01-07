@@ -1,0 +1,28 @@
+/* frontend/src/index.css (Minimal for MUI CssBaseline) */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Remove any background-color or text-color here, as MUI CssBaseline handles it based on theme */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh; /* Ensure App takes full viewport height */
+  display: flex;
+  flex-direction: column; /* For vertical layout */
+}
+
+/* Basic App-link styling, adjust if needed */
+.App-link {
+  color: #61dafb; /* Example, theme colors might override */
+  text-decoration: none;
+}
