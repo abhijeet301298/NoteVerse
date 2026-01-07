@@ -1,0 +1,86 @@
+# --------------------
+# General and System Files
+# --------------------
+# Ignore temporary and system-specific files
+.vscode/
+*.docx
+*.text
+# Ignore temporary files created by various editors
+# such as Sublime Text, VS Code, etc.
+# These files often end with `~` or `.bak`
+*~
+*.bak
+
+# --------------------
+# Hugging Face Cache (Large models)
+# --------------------
+# Ignore large model cache directories
+.cache/
+huggingface/
+
+# --------------------
+# Database and Data Files
+# --------------------
+# Ignore local database files and uploads
+backend/chroma_db/
+backend/uploads/
+
+# --------------------
+# Dependency and Environment Files
+# --------------------
+# Ignore all dependencies folders
+**/node_modules/
+# Ignore Python virtual environment
+**/Notes_env/
+# Ignore environment variables
+**/.env
+
+# --------------------
+# Language-specific Files
+# --------------------
+# Python
+__pycache__/
+
+# --------------------
+# Frontend Specific
+# --------------------
+# Frontend build files and dependencies
+frontend/build/
+frontend/dist/
+frontend/public/
+# We are ignoring node_modules above so this is not needed
+frontend/node_modules/
+# Ignore lock files and config files that are auto-generated or handled by package managers
+frontend/package-lock.json
+frontend/serviceAccountKey.json
+# We are already ignoring .env globally so this is not needed
+frontend/.env
+frontend/package.json
+
+# --------------------
+# Backend Specific
+# --------------------
+# We are ignoring all backend dependencies and environment files above
+# so these specific entries are not needed
+backend/node_modules
+backend/Notes_env
+backend/.env
+backend/package-lock.json
+backend/package.json
+backend/serviceAccountKey.json
+backend/uploads
+
+# --------------------
+# Miscellaneous Project Files
+# --------------------
+# These are project-specific files that should not be in version control
+poppler-24.08.0/
+Progress_Screenshots/
+Test_files/
+backend/Ground_Truth/
+Evaluation_Results/
+
+# Ignore any other files
+app_backend_old_code.docx
+App_frontend_old_code.docx
+firebase.text
