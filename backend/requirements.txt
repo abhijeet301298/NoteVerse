@@ -1,0 +1,24 @@
+# Core Web Framework
+Flask
+Flask-Cors
+python-dotenv
+
+# Database
+pymongo
+
+# AI/ML Libraries
+opencv-python
+easyocr
+pdf2image
+PyMuPDF
+openai
+keybert
+google-api-python-client
+sentence-transformers
+langchain-community
+langchain-chroma
+langchain-huggingface
+
+# Other Utilities
+firebase-admin
+werkzeug
